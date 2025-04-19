@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #1a0017;
+  --secondary: #eeb357;
+  --text: #fcfafc;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-text: var(--text);
+  --font-main: var(--font-rakkas);
+}
+
+body {
+  background: var(--primary);
+  color: var(--text);
+  font-family: "Rakkas", serif;
+}
+
+.clip-curve {
+  clip-path: polygon(0 0, 100% 0, 100% 65%, 50% 100%, 0 65%);
+}
