@@ -11,7 +11,7 @@ export const cards = [
     text: "Explore My Portfolio",
   },
   {
-    href: "https://drive.google.com/file/d/1BAKOvH7MpM1FsE_V4vtagWrbzhPxi34k/view",
+    href: "https://drive.google.com/file/d/1xn9EaK7RIEZZBOWYapGnoDQb87ElOlze/view",
     label: "CV",
     icon: PiReadCvLogoLight,
     text: "Explore My CV",
