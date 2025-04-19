@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   keywords: ["Next.js", "HTML5", "CSS3", "React-Icons", "Tailwind CSS"],
   openGraph: {
     type: "website",
-    url: "https://antonious-portfolio.netlify.app/",
+    url: "https://antonious-bio-site.vercel.app/",
     title: "Antonious Nasr | Frontend Developer",
     description: "Personal Bio Site",
     images: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     images: [
       "https://res.cloudinary.com/dnekgcumk/image/upload/v1744062102/antonious_nasr_kamel_m1skdn.png?v=2",
     ],
-    site: "https://antonious-portfolio.netlify.app/",
+    site: "https://antonious-bio-site.vercel.app/",
   },
 };
 
