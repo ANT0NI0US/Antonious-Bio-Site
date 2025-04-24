@@ -1,7 +1,14 @@
 import { CgWebsite } from "react-icons/cg";
 import { PiReadCvLogoLight } from "react-icons/pi";
-import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaGithub,
+  FaInstagram,
+  FaLinkedinIn,
+  FaWhatsapp,
+} from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { FaXTwitter } from "react-icons/fa6";
 
 export const cards = [
   {
@@ -42,5 +49,23 @@ export const socialLinks = [
     label: "Gmail",
     icon: SiGmail,
     title: "Email me at antoniousnasr3@gmail.com",
+  },
+  {
+    href: "https://www.facebook.com/AntoniousNasrKamel/",
+    label: "Facebook",
+    icon: FaFacebookF,
+    title: "Check out my Facebook profile",
+  },
+  {
+    href: "https://www.instagram.com/antonious_nasr/",
+    label: "Gmail",
+    icon: FaInstagram,
+    title: "Check out my Instagram profile",
+  },
+  {
+    href: "https://x.com/T0T0SNasr",
+    label: "Twitter",
+    icon: FaXTwitter,
+    title: "Check out my Instagram Twitter",
   },
 ];
