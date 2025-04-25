@@ -5,7 +5,9 @@ export default function Banner() {
     <div className="relative h-56 w-full">
       <div
         className="w-full h-full bg-cover bg-center clip-curve"
-        style={{ backgroundImage: "url('/coverV1.jpg')" }}
+        style={{
+          backgroundImage: "url('https://i.ibb.co/cS2tj8j5/cover.webp')",
+        }}
       />
 
       <div className="absolute left-1/2 -bottom-16 transform -translate-x-1/2 shadow-md rounded-full border-[20px] border-primary overflow-hidden">

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Rakkas } from "next/font/google";
+import Banner from "./_components/Banner";
+import Footer from "./_components/Footer";
 
 const griffy = Rakkas({
   subsets: ["latin"],
@@ -47,7 +49,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${griffy.variable} antialiased`}>{children}</body>
+      <body className={`${griffy.variable} antialiased`}>
+        <Banner />
+        <main className="mt-12 mb-4 flex items-center justify-center flex-col p-4 gap-4 text-center">
+          {children}
+        </main>
+        <Footer />
+      </body>
     </html>
   );
 }
