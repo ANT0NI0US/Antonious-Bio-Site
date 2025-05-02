@@ -11,6 +11,28 @@
   --color-secondary: var(--secondary);
   --color-text: var(--text);
   --font-main: var(--font-rakkas);
+  --animate-right-to-left: move-right-to-left 0.5s ease-in-out infinite
+    alternate;
+  --animate-left-to-right: move-left-to-right 0.5s ease-in-out infinite
+    alternate;
+
+  @keyframes move-right-to-left {
+    0% {
+      transform: translateX(1.5%);
+    }
+    100% {
+      transform: translateX(-1.5%);
+    }
+  }
+
+  @keyframes move-left-to-right {
+    0% {
+      transform: translateX(-1.5%);
+    }
+    100% {
+      transform: translateX(1.5%);
+    }
+  }
 }
 
 body {

@@ -16,12 +16,14 @@ export const cards = [
     label: "Portfolio",
     icon: CgWebsite,
     text: "Explore My Portfolio",
+    animation: "animate-right-to-left",
   },
   {
     href: "https://drive.google.com/file/d/1xn9EaK7RIEZZBOWYapGnoDQb87ElOlze/view",
     label: "CV",
     icon: PiReadCvLogoLight,
     text: "Explore My CV",
+    animation: "animate-left-to-right",
   },
 ];
 

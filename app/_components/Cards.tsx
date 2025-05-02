@@ -5,7 +5,7 @@ export default function Cards() {
   return (
     <ul className="flex flex-col gap-3 max-w-md w-full">
       {cards.map((card) => (
-        <li key={card.href}>
+        <li key={card.href} className={`${card.animation}`}>
           <IconCard {...card} />
         </li>
       ))}

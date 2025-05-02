@@ -15,7 +15,7 @@ export default function IconLink({
 }: IconLinkProps) {
   return (
     <a
-      className="text-3xl hover:text-secondary transition-all"
+      className="text-3xl hover:text-secondary transition-all animate-pulse duration-500"
       href={href}
       target="_blank"
       rel="noopener noreferrer"
