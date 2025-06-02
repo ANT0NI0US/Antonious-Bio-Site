@@ -49,9 +49,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${griffy.variable} antialiased`}>
+      <body
+        className={`${griffy.variable} antialiased min-h-dvh flex flex-col`}
+      >
         <Banner />
-        <main className="mt-12 mb-4 flex items-center justify-center flex-col p-4 gap-4 text-center">
+        <main className="mt-12 mb-4 flex items-center justify-center flex-col p-4 gap-4 text-center flex-1">
           {children}
         </main>
         <Footer />

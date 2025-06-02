@@ -16,7 +16,7 @@ export default function IconCard({
 }: IconCardProps) {
   return (
     <a
-      className="shadow-md border border-secondary rounded-md py-4 px-2 flex flex-col items-center gap-3 hover:bg-secondary hover:text-text transition-all duration-500 hover:border-text group"
+      className="shadow-md border border-secondary rounded-md py-4 px-2 flex flex-col items-center gap-3 hover:bg-darkBlue hover:text-text transition-all duration-500 hover:border-text group"
       href={href}
       target="_blank"
       rel="noopener noreferrer"
