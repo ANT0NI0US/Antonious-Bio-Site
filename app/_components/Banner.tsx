@@ -6,14 +6,14 @@ export default function Banner() {
       <div
         className="w-full h-full bg-cover bg-center clip-curve"
         style={{
-          backgroundImage: "url('https://i.ibb.co/cS2tj8j5/cover.webp')",
+          backgroundImage: "url('https://i.ibb.co/20Sn9nHx/coverV2.jpg')",
         }}
       />
 
       <div className="absolute left-1/2 -bottom-16 transform -translate-x-1/2 shadow-md rounded-full border-[20px] border-primary overflow-hidden">
         <Image
           className="border-4 border-text rounded-full"
-          src="https://i.ibb.co/1GLrWXN/antonious-Nasr-Kamel.webp"
+          src="https://i.ibb.co/JFdQJT2V/Antonious-Nasr.png"
           alt="profile"
           width={150}
           height={150}
