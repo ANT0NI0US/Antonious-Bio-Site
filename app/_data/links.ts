@@ -19,7 +19,7 @@ export const cards = [
     animation: "animate-right-to-left",
   },
   {
-    href: "https://drive.google.com/file/d/1K8MJFUEMe0jHu7x1k0PanwNiqBF9mR-h/view",
+    href: "https://drive.google.com/file/d/1CUAsvfZyVrmilz3AV3dUMRgK65rjBO4i/view",
     label: "CV",
     icon: PiReadCvLogoLight,
     text: "Explore My CV",
