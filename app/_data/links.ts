@@ -12,14 +12,14 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export const cards = [
   {
-    href: "https://antonious-portfolio.netlify.app/",
+    href: "https://antonious-nasr-kamel-portfolio.vercel.app/",
     label: "Portfolio",
     icon: CgWebsite,
     text: "Explore My Portfolio",
     animation: "animate-right-to-left",
   },
   {
-    href: "https://drive.google.com/file/d/1rswKOs_jOhu-LNOonWmudbslt2-T5YeX/view",
+    href: "https://drive.google.com/file/d/1qReeu08yf_OCReoXEYP4L0NYzI9ELEFM/view",
     label: "CV",
     icon: PiReadCvLogoLight,
     text: "Explore My CV",
